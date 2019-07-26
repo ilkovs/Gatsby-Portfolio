@@ -53,7 +53,7 @@ class IndexPage extends Component {
                 <h2 className="copy">" There Are No Mistakes, Only Opportunities. "</h2>
                 <cite>Tina Fey</cite>
               </div>
-              <a href="resume/ilkov-resume.docx" style={{textDecoration:'none'}} target="__blank" download><button className="download">Download</button></a>
+              <a href="resume/ilkov-resume.docx" style={{textDecoration:'none'}} target="__blank" download="ilkov-resume.docx"><button className="download">Download</button></a>
             </div>
           </div>
         </div>
