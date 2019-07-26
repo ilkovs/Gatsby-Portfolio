@@ -2,7 +2,6 @@
 import React from "react" 
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import { LinkedinShareButton } from 'react-share'
 import linkedin from '../images/linkedin.png'
 import github from '../images/github.jpg'
 import MobileMenu from './mobilemenu'

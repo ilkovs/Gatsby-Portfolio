@@ -13,14 +13,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-plugin-favicon`,
-    {
-      resolve: `gatsby-plugin-favicon`,
-      options: {
-        logo: `${__dirname}/src/images/favicon.png`
-      },
-    }
-
       `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
