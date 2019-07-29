@@ -4,6 +4,7 @@ import React, { Component } from "react"
 import Layout from "../components/layout"
 import hero from '../images/hero.jpg'
 import { Link } from "gatsby"
+import downloadFile from '../resume/samuil_ilkov_resume.pdf'
 
 
 class IndexPage extends Component {
@@ -53,7 +54,7 @@ class IndexPage extends Component {
                 <h2 className="copy">" There Are No Mistakes, Only Opportunities. "</h2>
                 <cite>Tina Fey</cite>
               </div>
-              <a href="resume/ilkov-resume.docx" style={{textDecoration:'none'}} target="__blank" download="ilkov-resume.docx"><button className="download">Download</button></a>
+              <a href={downloadFile} style={{textDecoration:'none'}} target="__blank" download><button className="download">Download</button></a>
             </div>
           </div>
         </div>
