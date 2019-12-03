@@ -37,9 +37,9 @@ class Projects extends Component {
                         <TabPanel>
                             <div className="projects-frontend">
                                 <div className="project-one">
-                                    <a href="#"></a>
+                                    <a href="https://bostonproshop.com/"></a>
                                     <h2>{frontendTitles[0]}</h2>
-                                    <p>Official store of Boston Bruins and Boston Celtics.<br />[To be released..]
+                                    <p>Official store of Boston Bruins and Boston Celtics.
                                     <br /><span>Big Commerce</span></p>
                                 </div>
                                 <div className="project-two">
@@ -55,10 +55,9 @@ class Projects extends Component {
                                     <br /><span>Big Commerce</span></p>
                                 </div>
                                 <div className="project-four">
-                                    <a href="#"></a>
-                                    <h2>{frontendTitles[3]}</h2>
-                                    <p>Step by step booking functionality based on user input.<br />[To be released..]
-                                    <br /><span>Big Commerce</span></p>
+                                    <a href="https://github.com/ilkovs/react-hooks-crud-app"></a>
+                                    <h2>React Hooks Crud App</h2>
+                                    <span>React</span>
                                 </div>
                                 <div className="project-five">
                                     <a href="https://ilkovs.github.io/omdb-react-app/" target="__blank"></a>
@@ -67,16 +66,14 @@ class Projects extends Component {
                                     <br /><span>React</span></p>
                                 </div>
                                 <div className="project-six">
-                                    <a href="http://www.ilkovphotography.com/" target="__blank"></a>
-                                    <h2>{frontendTitles[5]}</h2>
-                                    <p>Static photopgraphy website.
-                                    <br /><span>HTML, SASS, JavaScript</span></p>
+                                    <a href="https://github.com/ilkovs/react-hooks-recipes-app" target="__blank"></a>
+                                    <h2>React Hooks Recipes App</h2>
+                                    <span>React</span>
                                 </div>
                                 <div className="project-seven">
-                                    <a href="#"></a>
-                                    <h2>{frontendTitles[6]}</h2>
-                                    <p>Shirts store.<br />[To be released..]
-                                    <br /><span>Big Commerce</span></p>
+                                    <a href="https://github.com/ilkovs/react-hooks-ToDoApp" target="__blank"></a>
+                                    <h2>React Hooks To-Do App</h2>
+                                    <span>React</span>
                                 </div>
                                 <div className="project-eight">
                                     <a href="https://ilkovs.github.io/GifTastic/" target="__blank"></a>
@@ -84,6 +81,7 @@ class Projects extends Component {
                                     <p>Dynamic web page populating your favorite movie star gifs.
                                     <br /><span>HTML, CSS, JavaScript</span></p>
                                 </div>
+
                             </div>
                         </TabPanel>
                         <TabPanel>
