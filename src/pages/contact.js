@@ -6,8 +6,8 @@ const Contact = () => (
         <h2 className="contact-heading">Get in Touch</h2>
         <p className="contact-desc">Questions, comments, jobs, projects, whatever. Give me a shout.</p>
         <div className="contact-form">
-            <form name="contact" method="POST" data-netlify="true">
-                <input type="hidden" name="bot-field" />
+        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="sams-form" value="contact" />
                 <label>
                     Name
                 <input type="text" name="name" id="name" />
