@@ -13,7 +13,7 @@ class IndexPage extends Component {
     return (
       <Layout>
         <div className="hero-graphic">
-          <img src={hero} className='hero' alt="hero graphic" style={{ width: '100%', height: '500px' }}></img>
+          {/* <img src={hero} className='hero' alt="hero graphic" style={{ width: '100%', height: '500px' }}></img> */}
           <div className="hero-content">
             <h2 className="hero-heading">Samuil Ilkov</h2>
             <p className="hero-info">Web Developer, Enthusiast, Father</p>
