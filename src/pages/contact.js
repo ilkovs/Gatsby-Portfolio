@@ -6,7 +6,7 @@ const Contact = () => (
         <h2 className="contact-heading">Get in Touch</h2>
         <p className="contact-desc">Questions, comments, jobs, projects, whatever. Give me a shout.</p>
         <div className="contact-form">
-            <form method="post" netlify-honeypot="bot-field" data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true">
                 <input type="hidden" name="bot-field" />
                 <label>
                     Name
