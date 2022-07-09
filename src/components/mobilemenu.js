@@ -12,7 +12,6 @@ class MobileMenu extends Component {
             <Menu id={"sidebar"} className={"my-menu"} disableAutoFocus >
                 <Link id="home" className="mobile-item" to="/">Home</Link>
                 <Link id="about" className="mobile-item" to="/about">About</Link>
-                <Link id="projects" className="mobile-item" to="/projects">Projects</Link>
                 <Link id="contact" className="mobile-item" to="/contact">Contact</Link>
             </Menu>
         );
