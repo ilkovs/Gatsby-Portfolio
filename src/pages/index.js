@@ -16,36 +16,28 @@ class IndexPage extends Component {
           {/* <img src={hero} className='hero' alt="hero graphic" style={{ width: '100%', height: '500px' }}></img> */}
           <div className="hero-content">
             <h2 className="hero-heading">Samuil Ilkov</h2>
-            <p className="hero-info">Web Developer, Enthusiast, Father</p>
+            <p className="hero-info">Software Engineer, Enthusiast, Father</p>
           </div>
         </div>
         <div className="container-middle">
           <h2 className="competencies"><span>[</span> Competencies <span>]</span></h2>
           <div className="competencies-content">
-            <Link to='/projects' style={{ textDecoration: 'none' }}>
               <div className="frontend">
                 <h2>Front End</h2>
-                <p>HTML, SAAS, JavaScript, JQuery, React, GatsbyJS</p>
+                <p>HTML, SASS, JavaScript, JQuery, React, Redux, TypeScript</p>
               </div>
-            </Link>
-            <Link to='/projects' style={{ textDecoration: 'none' }}>
               <div className="backend">
                 <h2>Back End</h2>
-                <p>Express, MySQL, Node, Mongo, Firebase</p>
+                <p>Node, GraphQL, MySQL, Serverless</p>
               </div>
-            </Link>
-            <Link to='/projects' style={{ textDecoration: 'none' }}>
               <div className="ecommerce">
                 <h2>E-Commerce</h2>
                 <p>BigCommerce, Shopify</p>
               </div>
-            </Link>
-            <Link to='/projects' style={{ textDecoration: 'none' }}>
               <div className="design">
                 <h2>Web Design</h2>
-                <p>Photoshop, Adobe XD</p>
+                <p>Photoshop, Adobe XD, Figma</p>
               </div>
-            </Link>
           </div>
           <h2 className="resume"><span>[</span> Resume <span>]</span></h2>
           <div>
@@ -63,7 +55,7 @@ class IndexPage extends Component {
           <div className='about-me-content'>
             <p>
               Born and raised in the beautiful country of Bulgaria, I've always had passion for technologies, websites and what's behind all that.
-               Fortunately, due to life circumstances, I had the chance to move the USA and graduate as a Full Stack Web Developer from the Georgia Tech Coding Boot Camp and I have to admit, I've never felt so fulfilled and completed in my life.
+               Fortunately, due to life circumstances, I had the chance to move to the USA and graduate as a Full Stack Web Developer from the Georgia Tech Coding Boot Camp and I have to admit, I've never felt so fulfilled and completed in my life.
                 That moment when you realize that you finally found your profession, the only job that makes you feel good. 
                 <Link to="/about" className="read-more"> Read More</Link>
             </p>
