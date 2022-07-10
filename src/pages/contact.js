@@ -34,8 +34,6 @@ const Contact = () => {
       }
 
     const handleSubmit = (e) => {
-        e.preventDefault();
-
         const state = {
             name: name,
             email: email,
@@ -47,7 +45,10 @@ const Contact = () => {
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", ...state})
           })
-            .then(() => alert("Success!"))
+            .then(() => {
+                console.log('Form has been submitted!');
+                window.location.href('/');
+            })
             .catch(error => alert(error));
     };
     
