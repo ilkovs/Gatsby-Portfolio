@@ -16,7 +16,7 @@ const Contact = () => {
         if (name === 'name') {
             setName(value);
         }
-        if (name === 'email') {
+        if (name === 'email') { 
             setEmail(value);
         }
         if (name === 'subject') {
@@ -26,6 +26,12 @@ const Contact = () => {
             setMessage(value);
         }
     }
+
+    const encode = (data) => {
+        return Object.keys(data)
+            .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+            .join("&");
+      }
 
     const handleSubmit = (e) => {
         e.preventDefault();
