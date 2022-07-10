@@ -56,7 +56,7 @@ const Contact = () => {
         <h2 className="contact-heading">Get in Touch</h2>
         <p className="contact-desc">Questions, comments, jobs, projects, whatever. Give me a shout.</p>
         <div className="contact-form">
-        <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={(e) => handleSubmit(e)}>
+        <form name="contact" method="post" netlify onSubmit={(e) => handleSubmit(e)}>
         <input type="hidden" name="sams-form" value="contact" />
                 <label>
                     Name
