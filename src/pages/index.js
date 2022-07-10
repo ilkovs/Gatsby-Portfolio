@@ -32,7 +32,7 @@ class IndexPage extends Component {
               </div>
               <div className="ecommerce">
                 <h2>E-Commerce</h2>
-                <p>BigCommerce, Shopify</p>
+                <p>BigCommerce</p>
               </div>
               <div className="design">
                 <h2>Web Design</h2>
